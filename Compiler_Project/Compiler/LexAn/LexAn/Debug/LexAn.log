@@ -1,0 +1,10 @@
+﻿  SyntacticAnalyzer.cpp
+C:\Users\glmor\OneDrive\Desktop\Compiler_Project\Compiler\src\SyntacticAnalyzer.cpp(51,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\glmor\OneDrive\Desktop\Compiler_Project\Compiler\src\SyntacticAnalyzer.cpp(62,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\glmor\OneDrive\Desktop\Compiler_Project\Compiler\src\SyntacticAnalyzer.cpp(63,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\glmor\OneDrive\Desktop\Compiler_Project\Compiler\src\SyntacticAnalyzer.cpp(64,27): warning C4018: '<': signed/unsigned mismatch
+C:\Users\glmor\OneDrive\Desktop\Compiler_Project\Compiler\src\SyntacticAnalyzer.cpp(127,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\glmor\OneDrive\Desktop\Compiler_Project\Compiler\src\SyntacticAnalyzer.cpp(269,22): warning C4018: '<': signed/unsigned mismatch
+  main.cpp
+  Generating Code...
+  LexAn.vcxproj -> C:\Users\glmor\OneDrive\Desktop\Compiler_Project\Compiler\LexAn\Debug\LexAn.exe

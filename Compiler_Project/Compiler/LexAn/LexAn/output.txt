@@ -1,0 +1,25 @@
+int		<Statement> -> <Declarative> | <Assign>
+x		<Declarative> -> <Type> <id>
+		<Declarative'> -> , <id> <Declarative'> | epsilon
+		No error detected in the Statement
+
+x 		<Statement> -> <Declarative> | <Assign>
+=		<Assign> -> <id> = <Expression>
+(		<Expression> -> <Terminal> <Expression'>
+3		<Factor> -> ( <Expression> ) | <id> | <num>
++		<Expression'> -> + <Terminal> <Expression'> | -<Terminal> < Expression'> | epsilon
+		ERROR- Identifier: id has not been declared yet
+id		<Factor> -> ( <Expression> ) | <id> | <num>
+)		<Factor> -> ( <Expression> ) | <id> | <num>
+*		<Term'> -> * <Factor> <Term'> | / <Factor> <Term'> | epsilon
+3		<Factor> -> ( <Expression> ) | <id> | <num>
++		<Expression'> -> + <Terminal> <Expression'> | -<Terminal> < Expression'> | epsilon
+(		<Expression> -> <Terminal> <Expression'>
+5.6		<Factor> -> ( <Expression> ) | <id> | <num>
+/		<Term'> -> * <Factor> <Term'> | / <Factor> <Term'> | epsilon
+7.4		<Factor> -> ( <Expression> ) | <id> | <num>
+)		<Factor> -> ( <Expression> ) | <id> | <num>
+		No error detected in the Statement
+
+Type Memory Location Identifier 
+int 5000 x 
